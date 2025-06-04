@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- http://127.0.0.1:5500/Day8_html/first.html?ename=&email=&phone=&Job=&Department=IT+Dep
+    http://127.0.0.1:5500/Day8_html/first.html?ename=&email=&phone=&Job=&Department=IT+Dep
+    http://127.0.0.1:5500/Day8_html/first.html?ename=kuldeep&email=kuldeepkumawat1250%40gmail.com&phone=06265825158&Job=it+job&Department=Engineering -->
+    <h1>Employee Details Form</h1>
+
+    <form action="">
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="ename" id="name" placeholder="Enter You full name">
+        <br><br>
+        <label for="eemail">Email:</label>
+        <input type="email" name="email" id="eemail" placeholder="Enter You Email">
+        <br><br>
+        <label for="phon">Phome Number:</label>
+        <input type="tel" name="phone" id="phon">
+        <br><br>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+        
+        <br><br>
+        <label for="job">Job Title:</label>
+        <input type="text" name="Job" id="job">
+        <br><br>
+
+        <label for="dep">Department</label>
+        <select name="Department" id="dep">
+            <option value="" disabled selected>Select You Dep</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Finance">Finance</option>
+            <option value="IT Dep">IT Dep</option>
+        </select>
+
+        <br> <br>
+        <button>  submiy  </button>
+    </form>
+</body>
+</html>

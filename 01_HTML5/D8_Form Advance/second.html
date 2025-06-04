@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- fieldset work in only for grouping the from ok
+    <h2>IIT JEE Registeration Form</h2> -->
+
+   <form action="server url dalte hai yha pe">
+
+    <fieldset>   
+       <legend>IIT JEE Registeration Form</legend>
+    <label for="name">Full Name: <span style="color:rgb(210, 0, 0)">*
+    </span></label>
+     <input type="text" name="sname" id="name">
+     <br><br>
+     <label for="email">Email:</label>
+     <input type="email" name="semail" id="email">
+     <br><br>
+     <label for="phno">Phone:</label>
+     <input type="tel" name="phon" id="phno">
+     <br><br>
+     <label for="pass">password:</label>
+     <input type="password" name="spass" id="pass">
+     <br><br>
+     
+     <label >Gender:</label>
+     <input type="radio" name="gender" id="male" value="male">
+     <label for="male">Male</label>
+     <input type="radio" name="gender" id="female" value="female">
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="other" value="other">
+     <label for="other">Other</label>
+     <br><br>
+     <label for="sname">School Name:</label>
+     <input type="text" name="SchoolN" id="sname">
+      
+     <br><br>
+      <label for="">Board:</label>
+       <select name="Board" id="bor">
+        <option value=""disabled selected>Select You Board</option>
+        <option value="Mp Board">MP Board</option>
+        <option value="Up">UP Board</option>
+        <option value="CBSC">CBSC Board</option>
+       </select>
+     
+       <br><br>
+       <!-- DOB -->
+        <label for="date">DOB:</label>
+        <input type="date" name="DOB" id="date" min="2001-01-01" max="2005-12-31">
+        <br><br>
+
+       <!-- yaer fo passing -->
+        <label for="yaer">Year of Passing</label>
+        <input type="number" name="yaer" id="yaer" min="2023" max="2025">
+
+       <br><br>
+       <label for="">Exam-Center:</label>
+       <select name="Exam-Center" id="Exam-c">
+        <option value=""disabled selected>Select You Exam-center</option>
+        <option value="Indore">Indore</option>
+        <option value="Ujjain">Ujjain</option>
+        <option value="Bhopal">Bhopal</option>
+       </select>
+       <br><br>
+
+       <button>Register</button>
+    </fieldset>
+
+</form>
+     
+</body>
+</html>
