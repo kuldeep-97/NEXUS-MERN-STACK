@@ -1,0 +1,131 @@
+
+ .container{
+    display: flex;
+    background-color: rgb(0, 255, 157);
+    flex-direction: row;
+    height: 800px;
+     justify-content: center;
+    /* align-items: center; */ 
+}
+
+/* Flex box ka Kamm : Display Flex ka use krke  : Jo bhi main bahar vala cantener hai vo Horijontal (main) acess  me (alain) ho jaye ga  */
+
+
+/******* 1) flex-direction *********/
+
+/* flex direction will identify my main axis */
+/* row: horizonatal is main axis */
+/* colum: vertical is main axis */
+
+/* flex-direction: row-reverse: revers dairection me elements alain hoge  */
+/* flex-direction: column-revers: colm ke aroun revers order me elements alain honge  */
+
+
+
+/******* 2) justify-content *********/
+
+/* work only main axis  */
+
+/* justify-content: start -> by defoult starting point se hi start honge */
+/* justify-content: end  -> move left side hogayenge  */
+/* justify-content: center  -> sab box center me move hojayenge */
+/* justify-content: space-around  -> elemetn ke bachh me space provid krta hai     : left o-r right me total jitna bhi space awalable hoga left or right me  uss space Equaliy distribut krta hai*/
+/* justify-content: space-between  ->  */
+/* justify-content: space-evenly */
+
+/* jstify constent it will be work around in main axis */
+
+
+
+/******* 3) Align-items *********  */
+
+/* work on cross axis only */
+
+/* align-items: start; */ 
+/* align-items: end; */ 
+/* align-items: center; */ 
+/* align-items: strach  -> display me start se end tak strach ho jayega cross axis ke around  box (element) but usme hight nhi honi chahiye ok  : or defoult align-item strach hi hota hai */ 
+/* align-items: baseline -> EX : div first or secodn class ka Refrence hai */ 
+
+
+
+/******* 4) flex-wrap *********** */
+/* flex-wrap: wrap  -> ye by defoult off rhta hai;
+   flex-wrap: wrap-reverse; -> Space kam hone pe box (element ko next line me move kr deta hai */
+
+
+
+/******* 5) align-content ******* */
+/*  condition hai flex wrap on hona 
+   box ke bichh ki spacing manage krna ok */
+
+
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* flex item */
+/* order it defines the order of element */
+/* deafult order is zero */
+
+
+.first{
+    font-size: 50px;   
+}
+
+.second{
+    font-size: 25px;
+}
+
+.box1{
+    background-color: red;
+    /* order: 10; */
+    /* align-self: start; */
+}
+
+.box2{
+    background-color: blue;
+    /* width: 600px; */
+    /* flex-grow: 1;  */
+    /* flex-shrink: 2; */
+    /* flex-basis: 300px; */
+}
+
+.box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 3;  */
+    /* align-self:end; */
+    /* flex: 2 2 200px; */
+
+}
+
+.box4{
+    background-color: orange;
+    /* order: 5; */
+    
+}
+
+/* Desktop */
+
+
+
+/* Tablet */
+
+
+/* Mobile */
+
+
+
+
+
+/* Revision time know  */
+
+

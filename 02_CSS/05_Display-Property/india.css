@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.one{
+    height: 33vh;
+    width: 100vw;
+    background-color: orange;
+}
+
+.two{
+    height: 34vh;
+    width: 10vw;;
+}
+
+.circle{
+    height: 34vh;
+    width: 34vh;
+    background-color: navy;
+    border-radius: 50%;
+    margin-left: 40vw;
+  
+}
+
+.three{
+    height: 33vh;
+    width: 100vw;
+    background-color: green;
+}

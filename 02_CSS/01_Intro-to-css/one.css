@@ -1,0 +1,33 @@
+
+/* Select by element Tag name */
+h1{
+    color: antiquewhite;
+    background-color: black  ;
+} 
+
+    /* h1{} <- isko pure ko Rule bolte hai */
+
+ul{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+/* Select by class name */
+/* you need to applay dott(.)first */
+.first{
+    color: azure;
+    background-color: black;
+}
+
+.second{
+     color: pink;
+     background-color: grey;
+}
+
+/* Select by id name */
+/* you need to applay dott(#)five */
+#five{
+    color: aqua;
+    background-color: black;
+}

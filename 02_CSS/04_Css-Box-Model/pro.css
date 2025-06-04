@@ -1,0 +1,39 @@
+.card{
+  width: 30vw;
+  height: 10vw;  
+  background-color: aqua;
+  border: 1vw green solid;
+  padding: 5vw;
+  margin: 20px 20px 20px 35vw;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+h2{
+    color: green;
+    text-align: center;
+
+   
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+/*zoom hota hai isse  */
+.card:hover h3{
+   transform: scale(1.2);
+}
+
+
+
+.card:hover h3{
+    color: red;
+}

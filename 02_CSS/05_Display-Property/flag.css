@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.hrline{
+    height: 15vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.vrline{
+    height: 40vh;
+    width: 10vw;
+    background-color: blue;
+    margin-left: 30vw;
+}
+
+.vrline2{
+    height: 45vh;
+    width: 10vw;
+    background-color: blue;
+    margin-left: 30vw;
+}

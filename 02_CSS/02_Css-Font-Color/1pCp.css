@@ -1,0 +1,8 @@
+
+/* p > div{
+    color: red;
+} */
+
+div > p{
+    color: green;
+}

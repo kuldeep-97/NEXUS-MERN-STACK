@@ -1,0 +1,54 @@
+/* CSS fonts */
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+
+    /* font-size: 2em;
+    font-size: 3rem;
+    font-size: 3cm;
+    font-size: 3%; */
+}
+
+
+body{
+    /* background-image: url(./pexels-ferarcosn-190819.jpg);
+    background-size: cover; */
+}
+
+
+
+
+/* Pixel size is determinde by your device size */
+/* em , relative to parent font size */
+/* rem , relative to HTML font size */
+/* % relative to parent font size */
+
+/* Font size 
+pixel px */
+
+/* Name ke sath */
+
+h1{
+    color: rgb(red, green, blue)
+}
+
+h3{
+    color: #a13818ff;
+}
+
+/* Change by rgb */
+/* 0-255 */
+/* Hexdecimal ko use karna */
+/* # tag use, 6 character(0-f) */
+
+p{
+    color: hsl(228, 55%, 24%,1);
+}
+
+pre{
+    color: rgba(9, 86, 2, 0.9);
+}
+
+/* name, rgb, hexadecimal, hsl */
+/* a : means alpha jo Transprency ke liye use hota haii*/

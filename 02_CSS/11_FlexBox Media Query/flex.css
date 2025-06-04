@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.cantainer{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* height: 1000xp; */
+
+}
+
+
+/* flex-items = box (chile) for parent div  */
+/*  */
+
+/******* flex-items *********/
+
+/* 1) order : box ordring  -> box ka by defoult order 0 rhta hai
+
+/* 2) flex-grow : box grow krta hai blank space me -> defoult grow 0 hota hai*/
+
+/* 3) flex-shrink : defoult value sabki 1 hoti hai value ke acording box ya element choote honege  */
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    
+    border: 3px solid black;
+}
+
+.Box1{
+    background-color: rgb(223, 23, 23);
+    /* flex-grow: 1; */
+}
+
+.Box2{
+    background-color: rgb(7, 7, 227);
+}
+
+
+.Box3{
+    background-color: green;
+    /* order: -1; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+}
+/* Flex item defines  the order of item (box) yaa elements */
+/* order it defines the order of element */
+/* deafult order is zero  */
+.Box4{
+    background-color: orange;
+    /* flex-shrink: 3 ; */
+}

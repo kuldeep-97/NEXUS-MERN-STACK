@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+.container{
+    
+    background-color: white;
+    position: relative;
+    margin: 25px; 
+    width: 100vw;
+}
+
+
+.img1{
+  width: 300px;
+  height: 200px;
+  border-radius: 7%;
+}
+
+.img2{
+    width: 300px;
+    height: 200px;
+}
+
+.img3{
+    width: 300px;
+    height: 200px;
+}
+
+.img4{
+    width: 300px;
+    height: 200px;
+}
+
+.img5{
+    width: 300px;
+    height: 200px;
+}
+
+.img6{
+    width: 300px;
+    height: 200px;
+}
+
+
+.one{
+    display: inline-block;
+    margin: 30px ;
+    border-radius: 20%;
+    /* height or width normal 200 or 200px or vw me deframt kyo ho rha hai */
+}
+
+.two{
+    display: inline-block;
+    margin: 30px ;
+    
+}
+
+.onee{
+    display: inline-block;
+    background-color:rgb(17, 143, 17);
+    border-radius: 20%;
+    color: white;
+    
+}
+.three{
+    display: inline-block;
+    margin: 30px ;
+}
+
+.four{
+    display: inline-block;
+    margin: 30px ;
+}
+
+.five{
+    display: inline-block;
+    margin: 30px ;
+}
+
+.six{
+    display: inline-block;
+    margin: 30px ;
+}
