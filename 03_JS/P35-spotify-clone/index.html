@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Sniglet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body> 
+   
+     <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house" ></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon ">
+                        <i class="fa-solid fa-plus nav-option"></i>
+                        <i class="fa-solid fa-arrow-right nav-option"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">
+                            Create you fist playlist
+                        </p>
+                        <p class="box-p2">
+                            It's easy, we'll help you
+                        </p>
+                        <button class="badge">
+                            Create playlist
+                        </button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">
+                            Let's find some podcasts to follow
+                        </p>
+                        <p class="box-p2">
+                            We'll keep you updated on new episodes
+                        </p>
+                        <button class="badge">
+                            Browse podcasts
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" >
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide">
+                        Explore Premium
+                      </button>
+                      <button class="badge2"><i class="fa-regular fa-circle-down" style="margin-right: 0.2rem;"></i>
+                          Install App
+                      </button>
+                      <i id="user" class="fa-regular fa-user"></i>
+                </div>
+            
+            </div>
+            
+                 <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="0"  style=" font-size: 1.5rem;"></i>
+                        <p class="card-title"></p>
+                        <p class="card-info">Song by Head Story 2 | sing by Arijit sing</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="1" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title"></p>
+                        <p class="card-info">Arijit Singh & Alka Yagnik </p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="2" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Dildara Song</p>
+                        <p class="card-info">Shafqat Amanat Ali (Additonal Vocals: Vishal Dadlani, Shekhar Ravjiani, Clinton Cerejo'S Choir)</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="3" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Do Anjaane Ajnab</p>
+                        <p class="card-info">Udit Narayan, Shreya Ghoshal</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="4" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">ghar Se Nikalte Hi</p>
+                        <p class="card-info">Amaal Mallik Feat.Armaan Malik | Bhushan Kumar</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="5" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Tera Yaar Hu Main</p>
+                        <p class="card-info">Arijit Singh Rochak Kohli | Song 2018</p>
+                    </div>
+                
+              
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="6" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Gawah Hai Chand Tare</p>
+                        <p class="card-info"> Song by Kumar Sanu, Alka Yagnik from the movie Damini</p>
+                    </div>
+                
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="7" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Ghar More Pardesiya</p>
+                        <p class="card-info">Song by Shreya Ghoshal-From the movie Kalank</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="8" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Hamari Adhuri Kahani</p>
+                        <p class="card-info">Most emotional song in hindi , Hamari Adhuri Kahani Full Song (Lyrics) - Arijit Singh </p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="9" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Hawayein, the magical love song</p>
+                        <p class="card-info">Movie-Jab Harry Met Sejal , song by a Arijit Sing</p>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="10" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="11" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="12" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="13" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="14" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="15" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="16" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="17" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="18" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="19" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="20" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="21" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="22" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="23" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="24" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="" class="card-image">
+                        <i class="fa-solid fa-circle-play , SortPlayer" id="25" style=" font-size: 1.5rem;"></i>
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img scr="./assets/card1img.jpg" class="song-image">
+                <div class="para">
+                    <a class="para1">Daylight</a>
+                    <a class="para2">David Kushner</a>
+                </div>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon" id="previous">
+                    <i class="fa-solid fa-circle-play"  id="masterPlay"  style="font-size: 1.7rem;"></i>
+                    <img src="./assets/player_icon4.png" class="player-control-icon" id="forward">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <!-- <span class="curr-time">00:00</span> -->
+                    <input type="range" min="0" value="0"  max="100" class="progress-bar" id="myProgressBar" step="1">
+                    <!-- <span class="tot-time">3:33</span> -->
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-layer-group"></i>
+                <i class="fa-solid fa-circle-nodes"></i>
+                <i class="fa-solid fa-volume-low"></i>
+                <input type="range" min="0" max="100" class="bar" step="1">
+            </div>
+        </div>
+     </div>
+     <script src="app.js"></script>
+     <script src="https://kit.fontawesome.com/6d85362328.js" crossorigin="anonymous"></script>
+</body>
+</html> 
+
